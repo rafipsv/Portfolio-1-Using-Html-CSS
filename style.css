@@ -1,0 +1,149 @@
+.Body {
+  background-color: black;
+}
+
+.tag-1 {
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-family: cursive;
+}
+
+.sec {
+  display: flex;
+}
+.pic {
+  width: auto;
+  height: 520px;
+  padding-left: 100px;
+}
+
+.title-1 {
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.routes {
+  color: white;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.routes:hover {
+  color: #f9004d;
+  font-weight: 500;
+}
+.button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: 400;
+  padding: 8px 25px;
+  transition: transform 0.4s;
+  border-radius: 30px;
+}
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+.image {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+}
+.image-al {
+  text-align: center;
+}
+.service {
+  background: black;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title-2 {
+  color: white;
+  font-family: cursive;
+  font-size: 75px;
+  text-align: center;
+  margin: 30px auto;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: black;
+}
+
+.card1 {
+  height: 410px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.pra p {
+  color: #fcfc;
+  font-family: cursive;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text-1 {
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.footer-text-2 {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+}
+.footer-text-3 {
+  color: #f9004d;
+  font-family: cursive;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 1000px;
+}
+.social {
+  display: flex;
+}
+.social a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  background: #f9004d;
+  color: white;
+  margin: 10px 15px;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 22px;
+}
+.social a:hover {
+  transform: scale(1.3);
+  transform: 0.3s;
+}
